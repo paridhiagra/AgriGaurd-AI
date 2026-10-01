@@ -562,4 +562,4 @@ From Farm Data to the Right Action.
 
 Built for smarter and more sustainable agriculture.
 
-</div> ```
+</div> 
