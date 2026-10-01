@@ -632,7 +632,7 @@ Future versions can integrate real-time IoT sensors and automated irrigation har
 | Member               | Role                      |
 | -------------------- | ------------------------- |
 | **Paridhi Agrawal**  | Frontend & UI/UX          |
-| **Team Member Name** | Backend & API Development |
+| **Esha Chaturvedi** | Backend & API Development |
 
 ---
 
