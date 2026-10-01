@@ -1,0 +1,6 @@
+{
+  "name": "AgriGuard AI",
+  "description": "Weather-aware AI irrigation decision-support system. From Farm Data to the Right Action.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
