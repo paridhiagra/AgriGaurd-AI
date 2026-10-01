@@ -4,33 +4,94 @@
 
 ### From Farm Data to the Right Action.
 
-**AI-powered, weather-aware irrigation decision support for smarter and more sustainable agriculture.**
+AI-powered, weather-aware irrigation decision support for smarter and more sustainable agriculture.
 
-<br/>
+<br>
 
-![React](https://img.shields.io/badge/React-2026-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-AI-4285F4?style=for-the-badge&logo=google)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+
+<br>
+
+<a href="YOUR_LIVE_LINK">🌐 Live Demo</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="https://github.com/paridhiagra/AgriGaurd-Ai">💻 GitHub Repository</a>
 
 </div>
 
 ---
 
-## 🌾 About AgriGuard AI
+## 🌾 About
 
-**AgriGuard AI** is an AI-powered irrigation decision support system designed to help farmers answer one simple but important question:
+AgriGuard AI is an AI-powered irrigation decision support system designed to help farmers answer one simple question:
 
-> **"Should I irrigate now or wait?"**
+> **Should I irrigate now or wait?**
 
-Instead of only displaying farm data, AgriGuard AI combines **soil conditions, crop information, and weather conditions** to convert raw data into an actionable irrigation recommendation.
+Instead of simply displaying farm data, AgriGuard AI combines soil conditions, crop information, and weather conditions to turn raw data into a clear and actionable irrigation recommendation.
 
-### Core Approach
+---
+
+## 🎯 Problem
+
+Traditional irrigation decisions often depend on:
+
+- Manual observation
+- Fixed irrigation schedules
+- Limited weather information
+- Inconsistent soil monitoring
+
+These approaches can lead to unnecessary irrigation or delayed irrigation during dry conditions.
+
+---
+
+## 💡 Solution
+
+AgriGuard AI combines:
+
+- 🌱 Soil Moisture
+- 🌡️ Temperature
+- 💧 Humidity
+- 🌧️ Rain Probability
+- 🌾 Crop Type
+- 🌿 Growth Stage
+- 🚰 Water Availability
+- 🌦️ Weather Conditions
+
+and converts them into three simple decisions:
+
+### 🚰 IRRIGATION RECOMMENDED
+
+### 🌧️ WAIT — RAIN EXPECTED
+
+### ✅ NO IRRIGATION NEEDED
+
+---
+
+## ✨ Features
+
+- 🚰 Smart Irrigation Recommendations
+- 🌦️ Weather-Aware Decision Making
+- 🤖 AI-Powered Explanations
+- 🧪 Farm Simulator
+- 🔮 What-If Analysis
+- 📜 Recommendation History
+- 📊 Farm Analytics
+- 🔔 Smart Notifications
+- 🎙️ Ask AgriGuard AI
+- 🌐 English & Hindi Support
+- 🌙 Dark & Light Mode
+- 📱 Responsive Interface
+
+---
+
+## 🧠 How It Works
 
 ```text
 Farm Data
-    ↓
+    +
 Weather Data
     ↓
 Decision Engine
@@ -40,310 +101,316 @@ Irrigation Recommendation
 AI Explanation
     ↓
 Actionable Decision
+```
 
-The system provides three primary recommendations:
+### Core Principle
 
+**Don't just show the data. Turn data into a decision.**
+
+---
+
+## 🚰 Smart Irrigation Decision
+
+AgriGuard AI evaluates current farm and weather conditions to generate an irrigation recommendation.
+
+```text
+🌱 Low Soil Moisture
+        +
+🌧️ Low Rain Probability
+        ↓
 🚰 IRRIGATION RECOMMENDED
+```
+
+```text
+🌱 Low Soil Moisture
+        +
+🌧️ High Rain Probability
+        ↓
 🌧️ WAIT — RAIN EXPECTED
+```
+
+```text
+🌱 Sufficient Soil Moisture
+        ↓
 ✅ NO IRRIGATION NEEDED
-🎯 Problem
+```
 
-Traditional irrigation decisions often depend on:
+---
 
-Manual observation
-Fixed irrigation schedules
-Limited weather information
-Inconsistent monitoring of soil moisture
-Lack of centralized farm insights
-
-These approaches can lead to unnecessary irrigation or delayed irrigation during dry conditions.
-
-AgriGuard AI addresses this problem by combining multiple environmental factors and converting them into a simple recommendation.
-
-💡 Solution
-
-AgriGuard AI analyzes:
-
-🌱 Soil Moisture
-🌡️ Temperature
-💧 Humidity
-🌧️ Rain Probability
-🌾 Crop Type
-🌿 Growth Stage
-🚰 Water Tank Level
-🌦️ Weather Conditions
-
-The system then generates an understandable irrigation decision.
-
-             FARM CONDITIONS
-                    │
-                    ▼
-        ┌─────────────────────┐
-        │   Decision Engine   │
-        └──────────┬──────────┘
-                   │
-        ┌──────────┴──────────┐
-        ▼                     ▼
-   Weather Data          Farm Data
-        │                     │
-        └──────────┬──────────┘
-                   ▼
-          Irrigation Decision
-                   │
-          ┌────────┼────────┐
-          ▼        ▼        ▼
-       Irrigate   Wait     No Need
-✨ Features
-🚰 Smart Irrigation Recommendations
-
-Provides one of three decisions based on current farm conditions:
-
-🚰 IRRIGATION RECOMMENDED
-🌧️ WAIT — RAIN EXPECTED
-✅ NO IRRIGATION NEEDED
-🌦️ Weather-Aware Decision Making
-
-The system considers upcoming weather conditions along with farm data.
-
-Important weather factors include:
-
-Rain probability
-Temperature
-Humidity
-Weather condition
-Hourly forecast
-
-This helps avoid recommending irrigation when significant rainfall is expected.
-
-🌱 Real-Time Farm Condition Dashboard
-
-The dashboard provides an overview of:
-
-Soil moisture
-Temperature
-Humidity
-Rain probability
-Water tank storage
-Crop
-Growth stage
-Irrigation status
-🤖 AI-Powered Explanation
+## 🤖 AI-Powered Explanation
 
 The AI layer explains why a particular recommendation was generated.
 
 Example:
 
-Soil moisture is currently 18%, which is low,
-while rainfall probability is only 20%.
+> Soil moisture is currently low while rainfall probability is also low. Based on these conditions, irrigation is recommended.
 
-Based on these conditions, irrigation is recommended.
+Gemini AI can be used for explanations and conversational assistance, while the core decision engine can continue working independently.
 
-The AI layer is used primarily for explanation and assistance, while the core decision engine can continue working independently.
+---
 
-🧪 Farm Simulator
+## 🌦️ Weather-Aware Recommendations
 
-The simulator allows users to test different environmental conditions without physical sensors.
+Weather conditions are considered before generating an irrigation recommendation.
+
+Important factors include:
+
+* Rain probability
+* Temperature
+* Humidity
+* Current weather
+* Hourly forecast
+
+This helps avoid recommending irrigation when significant rainfall is expected.
+
+---
+
+## 🧪 Farm Simulator
+
+The Farm Simulator allows users to test different environmental conditions without physical sensors.
 
 Users can modify:
 
-Soil Moisture
-Temperature
-Humidity
-Rain Probability
-Crop
-Growth Stage
+* Soil Moisture
+* Temperature
+* Humidity
+* Rain Probability
+* Crop Type
+* Growth Stage
 
-Example:
+### Example
 
-Soil Moisture     → 18%
-Rain Probability → 20%
+```text
+Soil Moisture    : 18%
+Rain Probability : 20%
 
         ↓ ANALYZE
 
 🚰 IRRIGATION RECOMMENDED
+```
 
-Change the weather:
+---
 
-Soil Moisture     → 18%
-Rain Probability → 85%
+## 🔮 What-If Analysis
 
-        ↓ ANALYZE
+What-If Analysis allows users to explore how changing environmental conditions can affect the irrigation decision.
 
-🌧️ WAIT — RAIN EXPECTED
-🔮 What-If Analysis
+### Current Condition
 
-Users can explore how changing environmental conditions affects irrigation decisions.
-
-CURRENT CONDITION
-
-Soil Moisture: 18%
-Rain Probability: 20%
+```text
+Soil Moisture    : 18%
+Rain Probability : 20%
 
         ↓
 
 🚰 Irrigation Recommended
-WHAT-IF CONDITION
+```
 
-Soil Moisture: 18%
-Rain Probability: 80%
+### What-If Condition
+
+```text
+Soil Moisture    : 18%
+Rain Probability : 80%
 
         ↓
 
 🌧️ Wait — Rain Expected
+```
 
-This demonstrates the system's ability to respond to changing conditions.
+---
 
-📜 Recommendation History
+## 📊 Farm Analytics
 
-Users can review previous irrigation decisions.
+AgriGuard AI provides visual insights into farm conditions and irrigation activity.
+
+Analytics include:
+
+* Soil moisture trends
+* Irrigation activity
+* Water consumption
+* Recommendation trends
+* Historical farm conditions
+
+---
+
+## 📜 Recommendation History
+
+Users can review previous irrigation decisions and understand the conditions that led to each recommendation.
 
 History can include:
 
-Date & time
-Crop
-Soil moisture
-Temperature
-Rain probability
-Decision
-Irrigation duration
-Decision explanation
-📊 Farm Analytics
+* Date & Time
+* Crop
+* Soil Moisture
+* Temperature
+* Rain Probability
+* Decision
+* Irrigation Duration
+* Decision Explanation
 
-The application provides visual insights into farm conditions and irrigation activity.
+---
 
-Examples:
+## 🔔 Smart Notifications
 
-Soil moisture trends
-Irrigation history
-Water consumption
-Recommendation trends
-🔔 Smart Notifications
+The notification system can alert users about important farm events such as:
 
-Notifications can alert users about:
+* Low soil moisture
+* Expected rainfall
+* Scheduled irrigation
+* Water tank conditions
+* Important farm updates
 
-Low soil moisture
-Expected rainfall
-Scheduled irrigation
-Water tank conditions
-Important farm events
-🎙️ Ask AgriGuard AI
+---
+
+## 🎙️ Ask AgriGuard AI
 
 The built-in AI assistant allows users to ask questions about their farm.
 
-Example:
+Example questions:
 
+```text
 "Should I irrigate my wheat field today?"
 
 "Why is irrigation recommended?"
 
 "What happens if rain is expected tonight?"
-🌐 Language Support
+```
+
+---
+
+## 🌐 Language Support
 
 The application supports:
 
-🇬🇧 English
-🇮🇳 Hindi
+* 🇬🇧 English
+* 🇮🇳 Hindi
 
 The interface is designed to make agricultural insights easier to understand.
 
-🌙 Dark & Light Mode
+---
 
-AgriGuard AI supports a responsive interface with:
+## 🌙 Dark & Light Mode
 
-Dark Mode
-Light Mode
-Responsive layouts
-Mobile-friendly navigation
-🧠 Decision Engine
+AgriGuard AI supports:
+
+* 🌙 Dark Mode
+* ☀️ Light Mode
+* 📱 Responsive layouts
+* 🧭 Mobile-friendly navigation
+
+---
+
+## 🧠 Decision Engine
 
 The current prototype uses a deterministic decision engine.
 
-Prototype Logic
+### Prototype Logic
+
+```text
 IF soil moisture < 25%
 AND rain probability < 40%
 
         ↓
 
 🚰 IRRIGATION RECOMMENDED
+```
+
+```text
 IF soil moisture < 25%
 AND rain probability >= 40%
 
         ↓
 
 🌧️ WAIT — RAIN EXPECTED
+```
+
+```text
 IF soil moisture >= 25%
 
         ↓
 
 ✅ NO IRRIGATION NEEDED
+```
 
-Note: These thresholds are prototype/demo rules and are not scientifically validated irrigation thresholds. A production system would require crop-specific agronomic data, soil characteristics, local climate information, evapotranspiration data, field calibration, and real sensor measurements.
+> **Note:** These thresholds are prototype/demo rules and are not scientifically validated irrigation thresholds. A production system would require crop-specific agronomic data, soil characteristics, local climate information, and field calibration.
 
-🏗️ System Architecture
-                    ┌──────────────────┐
-                    │      Farmer      │
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │  React Frontend  │
-                    │   + Vite + UI    │
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │ Node.js +        │
-                    │ Express Backend  │
-                    └───────┬──────────┘
-                            │
-              ┌─────────────┼─────────────┐
-              │             │             │
-              ▼             ▼             ▼
-        ┌──────────┐  ┌──────────┐  ┌────────────┐
-        │ MongoDB  │  │ Weather  │  │  Decision  │
-        │ Database │  │   API    │  │   Engine   │
-        └──────────┘  └──────────┘  └─────┬──────┘
-                                           │
-                                           ▼
-                                    ┌──────────────┐
-                                    │ Gemini AI    │
-                                    │ Explanation  │
-                                    └──────┬───────┘
-                                           │
-                                           ▼
-                                    ┌──────────────┐
-                                    │ Recommendation│
-                                    └──────────────┘
-🛠️ Tech Stack
-Frontend
-React.js
-Vite
-JavaScript
-JSX
-Tailwind CSS
-React Router
-Lucide React
-Recharts
-Backend
-Node.js
-Express.js
-REST APIs
-Database
-MongoDB
-Mongoose
-AI
-Google Gemini API
-Authentication
-JWT
-bcrypt
-External Services
-Weather API
-Development Tools
-VS Code
-Git
-GitHub
-Postman
-📁 Project Structure
+---
+
+## 🏗️ System Architecture
+
+```text
+                    ┌───────────────┐
+                    │    Farmer     │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │ React + Vite  │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │ Node + Express│
+                    └───────┬───────┘
+                            ↓
+             ┌──────────────┼──────────────┐
+             ↓              ↓              ↓
+         MongoDB       Weather API   Decision Engine
+                                           ↓
+                                      Gemini AI
+                                           ↓
+                                    Recommendation
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* JavaScript
+* JSX
+* Tailwind CSS
+* React Router
+* Recharts
+* Lucide React
+
+### Backend
+
+* Node.js
+* Express.js
+* REST APIs
+
+### Database
+
+* MongoDB
+* Mongoose
+
+### AI
+
+* Google Gemini API
+
+### Authentication
+
+* JWT
+* bcrypt
+
+### External Services
+
+* Weather API
+
+### Development Tools
+
+* VS Code
+* Git
+* GitHub
+* Postman
+
+---
+
+## 📁 Project Structure
+
+```text
 AgriGuard-AI/
 │
 ├── public/
@@ -368,22 +435,15 @@ AgriGuard-AI/
 ├── .gitignore
 ├── package.json
 └── README.md
-🔌 API Endpoints
-Method	Endpoint	Description
-POST	/api/auth/login	User login
-POST	/api/auth/signup	User registration
-GET	/api/farm	Fetch farm data
-PUT	/api/farm	Update farm data
-POST	/api/recommendation/analyze	Generate irrigation recommendation
-GET	/api/recommendation/history	Fetch recommendation history
-GET	/api/weather	Fetch weather data
-POST	/api/ai/chat	AI assistant
-POST	/api/irrigation/schedule	Schedule irrigation
-GET	/api/notifications	Fetch notifications
-🔐 Environment Variables
+```
 
-Create a .env file and configure the required environment variables.
+---
 
+## 🔐 Environment Variables
+
+Create a `.env` file and configure the required environment variables:
+
+```env
 PORT=3000
 
 GEMINI_API_KEY=your_gemini_api_key
@@ -397,169 +457,207 @@ JWT_SECRET=your_jwt_secret
 VITE_API_URL=/api
 
 VITE_BACKEND_URL=http://localhost:3000
-⚠️ Security
+```
 
-Never commit API keys or secrets to GitHub.
+### ⚠️ Security
 
-Make sure your .gitignore contains:
+Never commit API keys, database credentials, or other secrets to GitHub.
 
+Your `.gitignore` should contain:
+
+```gitignore
+node_modules/
 .env
 .env.local
 .env.*.local
-🚀 Installation
-1. Clone the Repository
+dist/
+```
+
+---
+
+## 🚀 Run Locally
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/paridhiagra/AgriGaurd-Ai.git
-2. Open the Project
+```
+
+### 2. Open the Project
+
+```bash
 cd AgriGaurd-Ai
-3. Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 npm install
-4. Configure Environment Variables
+```
 
-Create a .env file using .env.example as reference.
+### 4. Configure Environment Variables
 
-5. Start the Backend
+Create a `.env` file using `.env.example` as a reference.
+
+### 5. Start the Backend
+
+```bash
 npm run dev:server
-6. Start the Frontend
+```
+
+### 6. Start the Frontend
 
 Open another terminal:
 
+```bash
 npm run dev
-7. Open the Application
+```
+
+### 7. Open the Application
+
+```text
 http://localhost:5173
-🧪 Demo Scenarios
-Scenario 1 — Dry Field
-Soil Moisture     : 15%
-Rain Probability  : 10%
-Temperature       : 32°C
+```
+
+---
+
+## 🧪 Demo Scenarios
+
+### Scenario 1 — Dry Field
+
+```text
+Soil Moisture    : 15%
+Rain Probability : 10%
+Temperature      : 32°C
 
 Result:
 
 🚰 IRRIGATION RECOMMENDED
-Scenario 2 — Rain Expected
-Soil Moisture     : 18%
-Rain Probability  : 85%
-Temperature       : 30°C
+```
+
+### Scenario 2 — Rain Expected
+
+```text
+Soil Moisture    : 18%
+Rain Probability : 85%
+Temperature      : 30°C
 
 Result:
 
 🌧️ WAIT — RAIN EXPECTED
-Scenario 3 — Sufficient Moisture
-Soil Moisture     : 45%
-Rain Probability  : 20%
-Temperature       : 27°C
+```
+
+### Scenario 3 — Sufficient Moisture
+
+```text
+Soil Moisture    : 45%
+Rain Probability : 20%
+Temperature      : 27°C
 
 Result:
 
 ✅ NO IRRIGATION NEEDED
-👨‍🌾 User Flow
-                    ┌─────────┐
-                    │  Login  │
-                    └────┬────┘
-                         │
-                         ▼
-                  ┌──────────────┐
-                  │  Dashboard   │
-                  └──────┬───────┘
-                         │
-          ┌──────────────┼──────────────┐
-          ▼              ▼              ▼
-       Farm          Weather       AI Decisions
-          │              │              │
-          └──────────────┼──────────────┘
-                         ▼
-                 Irrigation Decision
-                         │
-              ┌──────────┼──────────┐
-              ▼          ▼          ▼
-          Irrigate      Wait      No Need
-              │          │          │
-              └──────────┼──────────┘
-                         ▼
-                Recommendation
-                     History
-🌍 Sustainable Agriculture
+```
 
-AgriGuard AI focuses on the Sustainable Agriculture domain by supporting better irrigation decisions.
+---
 
-The system is designed to help:
+## 🌱 Sustainable Agriculture
 
-💧 Reduce unnecessary irrigation
-🌱 Improve irrigation timing
-🌦️ Consider upcoming rainfall
-📊 Encourage data-driven farming
-🧑‍🌾 Simplify farm decision-making
-🌍 Support sustainable water management
+AgriGuard AI focuses on supporting sustainable agriculture through smarter irrigation decisions.
 
-The project does not claim a specific percentage of water savings because such results require real-world testing and validation.
+The system is designed to:
 
-🔮 Future Scope
-IoT & Hardware Integration
+* 💧 Reduce unnecessary irrigation
+* 🌱 Improve irrigation timing
+* 🌦️ Consider upcoming rainfall
+* 📊 Encourage data-driven farming
+* 🌍 Support sustainable water management
+
+> The project does not claim a specific percentage of water savings because real-world testing and validation are required.
+
+---
+
+## 🔮 Future Scope
+
+### IoT Integration
 
 The software prototype can later be connected to real agricultural sensors.
 
+```text
 Soil Moisture Sensor
-        │
+        ↓
 Temperature Sensor
-        │
+        ↓
 Humidity Sensor
-        │
+        ↓
 Water Level Sensor
-        │
-        ▼
-      ESP32
-        │
-        ▼
+        ↓
+       ESP32
+        ↓
    AgriGuard AI
-        │
-        ▼
-Decision Engine
-        │
-        ▼
+        ↓
+ Decision Engine
+        ↓
 Irrigation System
-
-Potential hardware:
-
-ESP32
-Soil moisture sensor
-Temperature sensor
-Humidity sensor
-Water-level sensor
-Water flow sensor
-Automated irrigation pump
-Advanced AI
+```
 
 Future versions could include:
 
-Crop-specific irrigation models
-Soil-type analysis
-Evapotranspiration-based decisions
-Historical farm learning
-Predictive irrigation planning
-Satellite/remote sensing data
-Automated irrigation control
-Voice-based local-language assistance
-📌 Current Status
-🚧 Prototype / Hackathon Project
+* ESP32-based real-time monitoring
+* Soil-type analysis
+* Crop-specific irrigation models
+* Evapotranspiration-based decisions
+* Historical farm learning
+* Predictive irrigation planning
+* Automated irrigation control
+* Satellite / remote sensing data
+* Voice-based local-language assistance
+
+---
+
+## 📌 Current Status
+
+**🚧 Prototype / Hackathon Project**
 
 The current version focuses on software-based irrigation decision support using simulated/manual farm data and weather information.
 
 Future versions can integrate real-time IoT sensors and automated irrigation hardware.
 
-🏆 Project Vision
+---
 
-AgriGuard AI follows one simple principle:
+## 👥 Team
 
-┌──────────────────────────────────────┐
-│                                      │
-│       Don't just show the data.      │
-│                                      │
-│       Turn data into a decision.     │
-│                                      │
-└──────────────────────────────────────┘
+### Team RootRise
+
+| Member               | Role                      |
+| -------------------- | ------------------------- |
+| **Paridhi Agrawal**  | Frontend & UI/UX          |
+| **Team Member Name** | Backend & API Development |
+
+---
+
+## 🔗 Project Links
+
+### 🌐 Live Demo
+
+[Open AgriGuard AI](YOUR_LIVE_LINK)
+
+### 💻 GitHub Repository
+
+[View Source Code](https://github.com/paridhiagra/AgriGaurd-Ai)
+
+---
+
 <div align="center">
-🌱 AgriGuard AI
-From Farm Data to the Right Action.
+
+# 🌱 AgriGuard AI
+
+### From Farm Data to the Right Action.
+
+**Don't just show the data. Turn data into a decision.**
+
+<br>
 
 Built for smarter and more sustainable agriculture.
 
-</div> 
+</div>
